@@ -1,0 +1,55 @@
+.heading {
+    text-align: center;
+    margin-top: 55px;
+}
+.heading h2 span {
+    color: green;
+}
+.container {
+    display: flex;
+    margin: 100px;
+    padding-left: 150px;
+    margin-left: 200px;
+}
+.container-box {
+    padding-left: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.content {
+    /* border-color: 5px solid black; */
+    border: 2px solid black;
+    padding: 20px;
+    padding-top: 10px;
+    
+}
+.content:hover {
+    border: 2px solid green;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 0 50px whitesmoke;
+}
+.list ul {
+    margin: 20px;
+    padding: 0px;
+    list-style: none;
+    line-height: 26px;
+    font-size: 18px;
+}
+.list ul li:hover {
+    padding-left: 5px;
+}
+.bi {
+    padding-right: 10px;
+}
+.btn {
+    border-radius: 20px;
+    padding: 6px;
+    width: 100px;
+    border-color: green;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: green;
+    color: white;
+}
